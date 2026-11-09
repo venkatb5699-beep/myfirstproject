@@ -367,6 +367,7 @@ export const navLinks = [
   { label: 'Custom Gifts', to: '/shop?category=name-bottles' },
   { label: 'Wedding', to: '/shop?occasion=wedding' },
   { label: 'Lifestyle', to: '/shop?category=party-supplies' },
+  { label: 'Gallery', to: '/gallery' },
 ]
 
 export function formatPrice(value: number) {

@@ -8,6 +8,7 @@ import { Home } from './pages/Home'
 import { Shop } from './pages/Shop'
 import { ProductDetail } from './pages/ProductDetail'
 import { Cart } from './pages/Cart'
+import { Gallery } from './pages/Gallery'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
           <Route path="/shop" element={<Shop />} />
           <Route path="/product/:slug" element={<ProductDetail />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/gallery" element={<Gallery />} />
           <Route path="*" element={<Navigate to="/" replace />} />
         </Routes>
       </main>
